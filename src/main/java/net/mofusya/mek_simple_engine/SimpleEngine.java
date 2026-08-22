@@ -1,4 +1,4 @@
-package net.mofusya.examplemod;
+package net.mofusya.mek_simple_engine;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -8,13 +8,13 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-@Mod(ExampleMod.MOD_ID)
-public class ExampleMod
+@Mod(net.mofusya.mek_simple_engine.SimpleEngine.MOD_ID)
+public class SimpleEngine
 {
-    public static final String MOD_ID = "examplemod";
+    public static final String MOD_ID = "mek_simple_engine";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public ExampleMod()
+    public SimpleEngine()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 

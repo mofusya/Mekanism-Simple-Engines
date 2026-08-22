@@ -146,6 +146,14 @@ repositories {
 
         }
     }
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroupByRegex("software\\.bernie.*")
+            includeGroup("com.eliotlash.mclib")
+        }
+    }
 }
 
 dependencies {
@@ -158,7 +166,13 @@ dependencies {
     implementation fg.deobf("curse.maven:collective-342584:6429218")
     implementation fg.deobf("curse.maven:full-brightness-toggle-391656:6185948")
 
+    implementation fg.deobf("curse.maven:mekanism-268560:6552911")
+    implementation fg.deobf("curse.maven:mekanism-generators-268566:6552914")
+
     implementation fg.deobf("curse.maven:ornatelib-1479095:8310029")
+
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
+    implementation("com.eliotlash.mclib:mclib:20")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }

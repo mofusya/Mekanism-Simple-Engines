@@ -1,11 +1,11 @@
-package net.mofusya.examplemod.data;
+package net.mofusya.mek_simple_engine.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.mofusya.examplemod.C;
+import net.mofusya.mek_simple_engine.C;
 
 import java.util.concurrent.CompletableFuture;
 
