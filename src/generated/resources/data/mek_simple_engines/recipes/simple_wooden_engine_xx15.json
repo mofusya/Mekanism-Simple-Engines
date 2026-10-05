@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "%": {
+      "item": "mek_simple_engines:wooden_engine_xx14"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "S%S",
+    "#%#",
+    "###"
+  ],
+  "result": {
+    "item": "mek_simple_engines:wooden_engine_xx15"
+  },
+  "show_notification": true
+}

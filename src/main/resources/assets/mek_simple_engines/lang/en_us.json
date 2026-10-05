@@ -1,0 +1,24 @@
+{
+  "creativetab.mek_simple_engines.main": "Mekanism: Simple Engines",
+
+  "block.mek_simple_engines.wooden_engine": "Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx2": "Double Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx3": "Triple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx4": "Quadruple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx5": "Quintuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx6": "Sextuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx7": "Septuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx8": "Octuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx9": "Nonuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx10": "Decuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx11": "Undecuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx12": "Duodecuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx13": "Tredecuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx14": "Quattuordecillion Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx15": "Quindecuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx16": "Sexdecuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_xx17": "Septendecuple Compressed Wooden Engine",
+  "block.mek_simple_engines.wooden_engine_of_absolute_provision": "The Wooden Engine Of Absolute Provision",
+
+  "block.mek_simple_engines.wooden_engine.fe_per_tick": "%sFE/t"
+}

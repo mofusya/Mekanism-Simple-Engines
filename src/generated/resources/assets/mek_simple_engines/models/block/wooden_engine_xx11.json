@@ -1,0 +1,7 @@
+{
+  "parent": "mek_simple_engines:block/simple_engine",
+  "textures": {
+    "0": "mek_simple_engines:block/wooden_engine_xx11",
+    "particle": "mek_simple_engines:block/wooden_engine_xx11"
+  }
+}

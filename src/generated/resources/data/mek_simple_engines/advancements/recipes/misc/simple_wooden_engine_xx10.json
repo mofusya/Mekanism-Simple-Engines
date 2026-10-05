@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mek_simple_engines:simple_wooden_engine_xx10"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wooden_engine_xx9": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mek_simple_engines:wooden_engine_xx9"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wooden_engine_xx9",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mek_simple_engines:simple_wooden_engine_xx10"
+    ]
+  },
+  "sends_telemetry_event": false
+}

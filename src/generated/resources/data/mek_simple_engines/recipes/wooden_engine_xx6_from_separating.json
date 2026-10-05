@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mek_simple_engines:wooden_engine_xx7"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "mek_simple_engines:wooden_engine_xx6"
+  }
+}

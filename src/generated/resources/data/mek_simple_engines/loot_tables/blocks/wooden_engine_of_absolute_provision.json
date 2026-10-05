@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mek_simple_engines:wooden_engine_of_absolute_provision"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mek_simple_engines:blocks/wooden_engine_of_absolute_provision"
+}

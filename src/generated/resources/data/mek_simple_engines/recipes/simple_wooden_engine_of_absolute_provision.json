@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "mek_simple_engines:wooden_engine_xx17"
+    },
+    "%": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "###",
+    "#%#",
+    "###"
+  ],
+  "result": {
+    "item": "mek_simple_engines:wooden_engine_of_absolute_provision"
+  },
+  "show_notification": true
+}
