@@ -27,7 +27,7 @@ public class SeBlocks {
     public static final RegistryObject<Block> COMPRESSED_WOODEN_ENGINE_XX14 = R.register("wooden_engine_xx14", () -> new SimpleEngineBlock(SeBlockEntityTypes.COMPRESSED_WOODEN_ENGINE_XX14::get, 8192), getBuildForEngine());
     public static final RegistryObject<Block> COMPRESSED_WOODEN_ENGINE_XX15 = R.register("wooden_engine_xx15", () -> new SimpleEngineBlock(SeBlockEntityTypes.COMPRESSED_WOODEN_ENGINE_XX15::get, 16384), getBuildForEngine());
     public static final RegistryObject<Block> COMPRESSED_WOODEN_ENGINE_XX16 = R.register("wooden_engine_xx16", () -> new SimpleEngineBlock(SeBlockEntityTypes.COMPRESSED_WOODEN_ENGINE_XX16::get, 32768), getBuildForEngine());
-    public static final RegistryObject<Block> COMPRESSED_WOODEN_ENGINE_XX17 = R.register("wooden_engine_xx17", () -> new SimpleEngineBlock(SeBlockEntityTypes.COMPRESSED_WOODEN_ENGINE_XX17::get, 65536), getBuildForEngine());
+        public static final RegistryObject<Block> COMPRESSED_WOODEN_ENGINE_XX17 = R.register("wooden_engine_xx17", () -> new SimpleEngineBlock(SeBlockEntityTypes.COMPRESSED_WOODEN_ENGINE_XX17::get, 65536), getBuildForEngine());
 
     public static final RegistryObject<Block> ABSOLUTE_WOODEN_ENGINE = R.register("wooden_engine_of_absolute_provision", AbsoluteEngineBLock::new, getBuildForEngine());
 
